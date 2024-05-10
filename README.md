@@ -39,18 +39,6 @@ write(out,block,nread);
 exit(0);}
 
 ```
-## OUTPUT
-```
-$ gcc -o filecopy.o filecopy.c
-$./filecopy.o
-$ ls -l file.out
-
--rwxr-xr-x    1 root     root         18352 Apr 17 14:08 filecopy.o
-
-$ diff filecopy.c file.out
-
-
-```
 
 ## 2.To Write a C program that illustrates files locking
 
@@ -98,18 +86,13 @@ return 0;
 
 ## OUTPUT
 
-```
+C program that illustrates files copying
 
-$ gcc -o lock.o lock.c
-$ ./lock.o tricky.txt
+![image](https://github.com/harinisaravanan10/Linux-File-IO-Systems-locking/assets/149035598/dd0b4aff-a5bd-4c63-b97f-556ee2c4779a)
 
-opening tricky.txt
+C program that illustrates files locking
 
-
-
-```
-
-
+![image](https://github.com/harinisaravanan10/Linux-File-IO-Systems-locking/assets/149035598/54bc45d7-c48f-4fdd-8755-40f22d89934d)
 
 
 # RESULT:
